@@ -113,17 +113,26 @@ $(document).ready(function() {
 					</div> -->
 				</div>
 				<div class="col-md-4 w3ls-banner-left">
-					<div class="w3ls-banner-left-info">
-						<h4>Job Title</h4>
-						<p>Machine Learning and Software Engineer</p>
-					</div>
+					
 					<div class="w3ls-banner-left-info">
 						<h4>Name</h4>
 						<p>Zaki Kidane</p>
 					</div>
 					<div class="w3ls-banner-left-info">
-						<h4>Sex</h4>
-						<p>Male</p>
+						<h4>Job Title</h4>
+						<p>Student</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>College and Year</h4>
+						<p>University of Colorado Boulder, Junior</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>Interests</h4>
+						<p>Machine Learning and Software Development</p>
+					</div>
+					<div class="w3ls-banner-left-info">
+						<h4>My Github</h4>
+						<a href="https://github.com/zakidane"><p>https://github.com/zakidane</p></a>
 					</div>
 					<!-- <div class="w3ls-banner-left-info">
 						<h4>Address</h4>
@@ -146,7 +155,7 @@ $(document).ready(function() {
 				<div class="col-md-6 wthree-about-left">
 					<h3>About Me</h3>
 					<h4>I am a junior undergraduate student at the University of Colorado Boulder majoring in Computer Science with a Math minor. I really enjoy solving problems, learning new things and being part of a team that makes impactful positive changes. I'm fortunate enough to work with CNCE (Center for Negative Carbon Emmisions), an innovative research center leading the efforts for Carbon reversal technology at the Arizona State University and at the Integrated Teaching and Learning Laboratory at CU Boulder (my roles are detailed below), both of which have exposed me to intelligent, hard-working people who make positive changes through innovation and analytical thinking. 
-							<br><br>In my spare time, I like to play soccer, read, hike and hang out with friends. The background photo above is a place called The Hanging Lake, one of the many beautiful hiking trails in Colorado that I like to visit.</h4>
+							<br><br>In my spare time, I like to play soccer, read, hike and hang out with friends. The background photo above is that of a place called The Hanging Lake, one of the many beautiful hiking trails in Colorado that I like to visit.</h4>
 					
 				</div >
 				<div class="col-md-6 wthree-about-right">
@@ -227,7 +236,65 @@ $(document).ready(function() {
 		</div>
 	</div>
 	<!-- //statistics -->
-	<!-- experience -->
+	<!-- projects -->
+	<div class="experience" id="experience">
+		<div class="container">
+			<div class="w3-agileits-statistics-heading experience-heading">
+				<h3>My Programming Projects</h3>
+			</div>
+			<div class="w3-agile-experience-grids">
+				<div class="experience-top-grids">
+					<div class="col-md-6 experience-grid">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+						<i class="fas fa-seedling"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>Modeling and Managing Control Systems for Direct Air Capture</h5>
+							<p>I am working long-distance with  Prof. Klaus Lackner (Director of Center for Negative Carbon Emissions at Arizona State University) to model and find a way to manage control systems for direct air capture. I mostly worked with numpy and matplotlib libraries in python. The overarching goal of CNCE is to create technology to absorb Carbon Dioxide back from the air. For more information, click the MIT Technology Review article <a href="https://www.technologyreview.com/s/612928/one-mans-two-decade-quest-to-suck-greenhouse-gas-out-of-the-sky/"> here.</a> </p>
+						</div>
+					</div>
+					<div class="col-md-6 experience-grid experience-grid1">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<a href="https://nostalgia-games.herokuapp.com/"> <i class="fas fa-gamepad"></i></a>
+						</div>
+						<div class="experience-grid-info">
+							<h5>Nostalgia Games Website</h5>
+							<p>As part of a software-development class, I led a project
+							of creating a gaming website that has sign-in/up, like/dislike and commenting
+							features. I took the task of implementing game-pages’ design, like/dislike and
+							commenting. We used HTML/CSS, JavaScript, Express.Js, Heroku and PostgreSQL.<br>Click the gamepad icon to checko ut the website.
+							<br><br><br></p>
+								</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="experience-top-grids">
+					<div class="col-md-6 experience-grid experience-grid2">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fas fa-robot" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>MIT OCW 6.034 Introduction to Artificial Intelligence</h5>
+							<p>As part of this great online free course taught by Prof. Patrick H. Winston, I have several project-assignments covering topics such as rule-based systems, hill-climbing and A* searches, game search with alpha-beta pruning, constraint satisfaction problems and deep learning. The most interesting project was creating an intelligent ConnectFour game that utilizes alpha-beta pruning.<br>Click <a href="https://github.com/zakidane/machine-learning-MIT">here</a> to check out the github repository.</p>
+						</div>
+					</div>
+					<div class="col-md-6 experience-grid experience-grid3">
+						<div class="experience-grid-icon icon-left hvr-radial-out">
+							<i class="fas fa-file" aria-hidden="true"></i>
+						</div>
+						<div class="experience-grid-info">
+							<h5>Huffman Text-File Compression</h5>
+							<p>This program was written in C++ as part of my Introduction to Algorithms class and uses the Huffman Algorithm to compress a text-file. On average, it compresses text-files to 50% of their size and decompresses them to the original version.
+								<br> Click <a href="https://github.com/zakidane/Huffman-Text-File-Compression">here</a> to see the github repository.</p>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //my projects -->
+	<!-- //experience -->
 	<div class="experience" id="experience">
 		<div class="container">
 			<div class="w3-agileits-statistics-heading experience-heading">
@@ -237,25 +304,43 @@ $(document).ready(function() {
 				<div class="experience-top-grids">
 					<div class="col-md-6 experience-grid">
 						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-folder-open" aria-hidden="true"></i>
+						<img src="images/itll.jpg" class="itll-img" alt="ITLL Logo. Source: https://itll.colorado.edu/">
 						</div>
 						<div class="experience-grid-info">
-							<h5>Ut dapibus nisi turpis</h5>
-							<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus, arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
+							<h5>Integrated Teaching and Learning Laboratory</h5>
+							<p>As an IT student at the ITLL since October 2018, I have had the pleasure of taking part in the following efforts:
+							<ul>
+								<li>Take part in or lead projects in an Agile environment such 		as participating in the design of the new ITLL website 		launched in April 2018.</li>
+								<li>Configure hardware, software and network components for 	new labs and workstations. We expanded to a new building and increased our workstations by 25% this year.</li>
+								<li>Oversee the ITLL environment (computers, 3-D printers
+									and other hardware) to make sure daily operations run smoothly.</li>
+								<li>Website: <a href="https://itll.colorado.edu/">https://itll.colorado.edu/</a></li>
+							</ul>
+							 </p>
 						</div>
 					</div>
 					<div class="col-md-6 experience-grid experience-grid1">
 						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-bell" aria-hidden="true"></i>
+						<img src="images/ccd.jpeg" class="ccd-img" alt="Community College of Denver logo. Source: https://www.ccd.edu/">
 						</div>
 						<div class="experience-grid-info">
-							<h5>Ut dapibus nisi turpis</h5>
-							<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus, arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
+							<h5>Facilities Services Assistant</h5>
+							<p>From September 2017 until August 2018, I worked as a student facilities assistant at the Community College of Denver. 
+							</p>
+							<ul>
+								<li>Effectively communicated with vendors to purchase or replace furniture</li>
+								<li>Handled the data-entry and invoice organization for the 	Facilities Services Office</li>
+								<li>As my first employment, I learned valuable professional 	written and verbal
+									communication skills
+								</li>
+								<li></li>
+
+							</ul>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<div class="experience-top-grids">
+				<!-- <div class="experience-top-grids">
 					<div class="col-md-6 experience-grid experience-grid2">
 						<div class="experience-grid-icon icon-left hvr-radial-out">
 							<i class="fa fa-comments" aria-hidden="true"></i>
@@ -275,11 +360,11 @@ $(document).ready(function() {
 						</div>
 					</div>
 					<div class="clearfix"> </div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>
-	<!-- //experience -->
+	<!--experience -->
 	<!-- feedback -->
 	<div class="jarallax feedback">
 		<div class="container">

@@ -434,7 +434,7 @@ body{
     border-right: solid 1px #999999;
     border-bottom: solid 1px #999999;
 }
-.experience-grid-icon i.fa.fa-folder-open,.experience-grid-icon i.fa.fa-bell,.experience-grid-icon i.fa.fa-comments,.experience-grid-icon i.fa.fa-asterisk{
+.experience-grid-icon i.fas.fa-seedling,.experience-grid-icon i.fas.fa-gamepad,.experience-grid-icon i.fas.fa-robot,  .experience-grid-icon i.fas.fa-file{
     color: #2f2f2f;
     background: none;
     border: solid 2px #ff9800;
@@ -455,6 +455,13 @@ body{
     margin: 1em 0 0 0;
     line-height: 1.8em;
 }
+.experience-grid-info li{
+  color: #999999;
+    font-size: .9em;
+    margin: 1em 0 0 0;
+    line-height: 1.8em;
+}
+
 .experience-grid1 {
     border-right: none !important;
 }
@@ -515,7 +522,7 @@ body{
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
 }
-.experience-grid:hover div i.fa.fa-folder-open,.experience-grid:hover div i.fa.fa-bell,.experience-grid:hover div i.fa.fa-comments,.experience-grid:hover div i.fa.fa-asterisk{
+.experience-grid:hover div i.fas.fa-seedling,.experience-grid:hover div i.fas.fa-gamepad,.experience-grid:hover div i.fas.fa-robot,.experience-grid:hover div i.fas.fa-file{
 	color: #FFFFFF;
 }
 /*-- //experience --*/
@@ -1102,10 +1109,20 @@ body{
 		right: 135px;
 		top: 181px;
 	}
-	.experience-grid-icon i.fa.fa-folder-open, .experience-grid-icon i.fa.fa-bell, .experience-grid-icon i.fa.fa-comments, .experience-grid-icon i.fa.fa-asterisk {
+	.experience-grid-icon i.fas.fa-seedling, .experience-grid-icon i.fas.fa-gamepad, .experience-grid-icon i.fas.fa-robot, .experience-grid-icon i.fas.fa-file {
 		width: 80px;
 		height: 80px;
 		padding: .7em 0 0 0;
 	}
 }
 /*-- //responsive --*/
+
+.itll-img {
+  width: 100px;
+  height: 100px;
+}
+
+.ccd-img {
+  width: 220px;
+  height: 100px;
+}

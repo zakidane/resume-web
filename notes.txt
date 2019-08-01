@@ -4,3 +4,6 @@ Information that needs to be added to the resume:
 3. Programming languages
 4. Work experience
 5. Elevator pitch
+
+
+Replace the 'my projects part with hobbies'

@@ -496,7 +496,7 @@
 .fa-minus:before {
   content: "\f068";
 }
-.fa-asterisk:before {
+.fa-file:before {
   content: "\f069";
 }
 .fa-exclamation-circle:before {
@@ -530,7 +530,7 @@
 .fa-random:before {
   content: "\f074";
 }
-.fa-comment:before {
+.fa-robot:before {
   content: "\f075";
 }
 .fa-magnet:before {
@@ -551,7 +551,7 @@
 .fa-folder:before {
   content: "\f07b";
 }
-.fa-folder-open:before {
+.fa-seedling:before {
   content: "\f07c";
 }
 .fa-arrows-v:before {
@@ -826,7 +826,7 @@
 .fa-tachometer:before {
   content: "\f0e4";
 }
-.fa-comment-o:before {
+.fa-robot-o:before {
   content: "\f0e5";
 }
 .fa-comments-o:before {
@@ -965,7 +965,7 @@
 .fa-folder-o:before {
   content: "\f114";
 }
-.fa-folder-open-o:before {
+.fa-seedling-o:before {
   content: "\f115";
 }
 .fa-smile-o:before {
@@ -1485,7 +1485,7 @@
   content: "\f1c5";
 }
 .fa-file-zip-o:before,
-.fa-file-archive-o:before {
+.fa-file-o:before {
   content: "\f1c6";
 }
 .fa-file-sound-o:before,
