@@ -360,9 +360,20 @@ body{
 }
 .jarallax {
     position: relative;
+    color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+}
+.jarallax h5{
+    font-size: 1.5em;
+    margin: 1em 0 0 0;
+    font-weight: 700;
+}
+.jarallax p{
+    font-size: .9em;
+    margin: 1em 0 0 0;
+    line-height: 1.8em;
 }
 .w3-agileits-statistics-heading h3{
     text-align: center;
@@ -1125,4 +1136,14 @@ body{
 .ccd-img {
   width: 220px;
   height: 100px;
+}
+
+.interests-image {
+  width: 50%;
+  height: 30%;
+}
+
+#hiking-image {
+  width: 60%;
+  height: 40%;
 }
